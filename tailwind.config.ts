@@ -47,16 +47,35 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        finance: {
+          DEFAULT: "hsl(var(--finance))",
+          glow: "hsl(var(--finance-glow))",
         },
+        health: {
+          DEFAULT: "hsl(var(--health))",
+          glow: "hsl(var(--health-glow))",
+        },
+        productivity: {
+          DEFAULT: "hsl(var(--productivity))",
+          glow: "hsl(var(--productivity-glow))",
+        },
+      },
+      backgroundImage: {
+        'gradient-finance': 'var(--gradient-finance)',
+        'gradient-health': 'var(--gradient-health)',
+        'gradient-productivity': 'var(--gradient-productivity)',
+        'gradient-primary': 'var(--gradient-primary)',
+      },
+      boxShadow: {
+        'finance': 'var(--shadow-finance)',
+        'health': 'var(--shadow-health)',
+        'productivity': 'var(--shadow-productivity)',
+      },
+      backdropBlur: {
+        'glass': '12px',
+      },
+      transitionTimingFunction: {
+        'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
       },
       borderRadius: {
         lg: "var(--radius)",
