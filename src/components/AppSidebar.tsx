@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { DollarSign, Activity, Heart, ListTodo, LayoutDashboard, Brain } from "lucide-react";
+import { DollarSign, Activity, Heart, ListTodo, LayoutDashboard, Brain, Settings } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -19,6 +19,7 @@ const navigationItems = [
   { title: "Health", url: "/health", icon: Activity },
   { title: "Relationships", url: "/relationships", icon: Heart },
   { title: "Productivity", url: "/productivity", icon: ListTodo },
+  { title: "Settings", url: "/settings", icon: Settings },
 ];
 
 export function AppSidebar() {
