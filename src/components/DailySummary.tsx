@@ -3,7 +3,7 @@ import { DollarSign, Moon, ListTodo, TrendingUp } from "lucide-react";
 
 export const DailySummary = () => {
   return (
-    <Card className="p-6 bg-gradient-primary border-2 border-primary/30 shadow-finance backdrop-blur-glass">
+    <Card className="p-6 bg-gradient-primary border-2 border-primary/30 shadow-finance backdrop-blur-glass animate-fade-in hover:shadow-xl transition-all duration-300">
       <div className="flex items-center gap-2 mb-4">
         <TrendingUp className="w-5 h-5 text-foreground" />
         <h2 className="text-xl font-bold text-foreground">Daily Summary</h2>

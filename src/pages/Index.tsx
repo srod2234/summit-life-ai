@@ -13,7 +13,7 @@ const Index = () => {
       </div>
 
       {/* Main Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 [&>*]:animate-fade-in [&>*:nth-child(1)]:delay-0 [&>*:nth-child(2)]:delay-75 [&>*:nth-child(3)]:delay-150">
         <DashboardCard
           title="Financial Health"
           value="$12,847"
@@ -45,7 +45,7 @@ const Index = () => {
           <Brain className="w-6 h-6 text-accent" />
           AI Insights
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 [&>*]:animate-fade-in [&>*]:delay-200">
           <InsightCard
             category="Finance"
             insight="You've spent 12% more on restaurants this month compared to last — consider meal prepping to save ~$85 next month."

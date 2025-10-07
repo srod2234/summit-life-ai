@@ -54,8 +54,8 @@ export function AppSidebar() {
                       end
                       className={({ isActive }) =>
                         isActive
-                          ? "bg-primary/10 text-primary font-medium"
-                          : "hover:bg-muted/50"
+                          ? "bg-primary/10 text-primary font-medium transition-all duration-200"
+                          : "hover:bg-muted/50 hover:translate-x-1 transition-all duration-200"
                       }
                     >
                       <item.icon className="w-5 h-5" />

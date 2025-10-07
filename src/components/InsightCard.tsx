@@ -24,7 +24,7 @@ export const InsightCard = ({ category, insight, variant }: InsightCardProps) =>
   return (
     <Card 
       className={cn(
-        "p-4 border-l-4 bg-card/50 backdrop-blur-glass transition-all duration-300 hover:scale-[1.02]",
+        "p-4 border-l-4 bg-card/50 backdrop-blur-glass transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:-translate-x-1 animate-fade-in",
         borderColors[variant]
       )}
     >
